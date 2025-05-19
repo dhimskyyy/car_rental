@@ -1,0 +1,128 @@
+/* Navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    padding: 0;
+    width: 100%;
+    background: hsl(0, 0%, 40%);
+    color: hsl(0, 0%, 100%);
+    font-family: "Courier New", monospace;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 50px;
+    z-index: 1000;
+}
+
+/* Bagian kiri navbar */
+.nav-lefti{
+    border: none;
+    display: inline-block;
+    align-items: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-lefti{
+    border: none;
+    display: inline-block;
+    align-items: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-leftm{
+    border: none;
+    display: inline-block;
+    align-items: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-leftm{
+    border: none;
+    display: inline-block;
+    align-items: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-lefti a{
+    text-decoration: none;
+    color: black;
+}
+.nav-leftm a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-leftm label, select{
+    text-decoration: none;
+    color: black;
+}
+
+.button {
+    display: inline-block;
+    padding: 8px 20px;
+    background: hsl(0, 0%, 100%);
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+    border-radius: 5px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: hsl(2, 64%, 58%);
+}
+
+/* Search Box */
+.nav-centeri {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+.nav-centerm {
+    display: flex;
+    justify-content: center;
+    padding-right: 80px;
+}
+
+.search-boxi {
+    width: 300px;
+    padding: 8px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+}
+.search-boxm {
+    width: 300px;
+    padding: 5px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    padding-right: 50px;
+}
+
+/* Bagian kanan navbar */
+.nav-righti {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.nav-rightm {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+/* Ikon Account dan Cart */
+.icon {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.icon:hover {
+    color: hsl(2, 64%, 58%);
+    transition: 0.3s ease-in-out;
+}

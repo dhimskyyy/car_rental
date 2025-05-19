@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Rental Mobil</title>
+    <link rel="stylesheet" href="/style/all.css">
+    <link rel="stylesheet" href="/style/nav.css">
+    <link rel="stylesheet" href="/style/dropdown.css">
+    <link rel="stylesheet" href="style/card-car.css">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-left">
+                <label for="location">Dhim's Car Rental</label>
+                <select name="location" id="location">
+                    <option value="Pemalang">Pemalang</option>
+                    <option value="Purwokerto">Purwokerto</option>
+                    <option value="Tegal">Tegal</option>
+                    <option value="Pekalongan">Pekalongan</option>
+                </select>
+            </div>
+
+            <div class="nav-center">
+                <input type="text" class="search-box" placeholder="Cari Mobil...">
+            </div>
+
+            <div class="nav-right">
+                <span class="price">Rp100.000</span>
+                <a href="#" class="icon"><i class="fa-solid fa-shopping-cart"></i></a>
+                <a href="account.html" class="icon"><i class="fa-solid fa-user"></i></a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="order-container">
+        <h1>Rental Mobil Terbaik untuk Perjalanan Anda</h1>
+        
+        <div class="filter-section">
+            <label for="car-type">Pilih Jenis Mobil:</label>
+            <select id="car-type">
+                <option value="all">Semua</option>
+                <option value="suv">SUV</option>
+                <option value="sedan">Sedan</option>
+                <option value="mpv">MPV</option>
+            </select>
+        </div>
+        
+        <div class="car-card">
+            <img src="/assets/car/innova.jpg" alt="Toyota Innova Reborn">
+            <div class="car-info">
+                <h2>TOYOTA INNOVA REBORN</h2>
+                <p>Mobil nyaman dan luas untuk perjalanan keluarga atau bisnis Anda.</p>
+                <p class="updated">Last updated 3 mins ago</p>
+                <button class="order-btn">Pesan Sekarang</button>
+            </div>
+        </div>
+        
+        <div class="car-card">
+            <img src="/assets/car/pajero.jpg" alt="Toyota Avanza">
+            <div class="car-info">
+                <h2>Mitsubishi Pajero</h2>
+                <p>Mobil irit bahan bakar dengan desain modern, cocok untuk perjalanan jauh.</p>
+                <p class="updated">Last updated 10 mins ago</p>
+                <button class="order-btn">Pesan Sekarang</button>
+            </div>
+        </div>
+
+        <div class="car-card">
+            <img src="/assets/car/zenix.jpg" alt="Toyota Avanza">
+            <div class="car-info">
+                <h2>Toyota Zenix V Hybrid</h2>
+                <p>Mobil irit bahan bakar dengan desain modern, cocok untuk perjalanan jauh.</p>
+                <p class="updated">Last updated 10 mins ago</p>
+                <button class="order-btn">Pesan Sekarang</button>
+            </div>
+        </div>
+        <div class="car-card">
+            <img src="/assets/car/alphard.webp" alt="Toyota Avanza">
+            <div class="car-info">
+                <h2>Toyota Alphard</h2>
+                <p>Mobil irit bahan bakar dengan desain modern, cocok untuk perjalanan jauh.</p>
+                <p class="updated">Last updated 10 mins ago</p>
+                <button class="order-btn">Pesan Sekarang</button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

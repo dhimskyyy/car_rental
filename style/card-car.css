@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+.order-container {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+.car-card {
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+.car-card img {
+    width: 50%;
+}
+.car-info {
+    padding: 20px;
+}
+.car-info h2 {
+    margin: 0;
+    color: #333;
+}
+.updated {
+    color: gray;
+    font-size: 12px;
+}
+.order-btn {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.order-btn:hover {
+    background: #218838;
+}
+.filter-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.filter-section select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
